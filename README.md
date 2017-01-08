@@ -7,7 +7,7 @@ Package license: Tumbolia Public License
 
 Feedstock license: BSD 3-Clause
 
-Summary: Copy your docs directly to the gh-pages branch
+Summary: Copy your docs directly to the gh-pages branch.
 
 
 
