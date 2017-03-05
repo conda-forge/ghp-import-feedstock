@@ -1,4 +1,4 @@
-{% set version = "0.5.4" %}
+{% set version = "0.5.5" %}
 
 package:
   name: ghp-import
@@ -7,7 +7,7 @@ package:
 source:
   fn: ghp-import-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/g/ghp-import/ghp-import-{{ version }}.tar.gz
-  sha256: 65d576f107e2a52abdd10866476053a8c2c8ad7e2148a62bc0bc23f501b924cc
+  sha256: 3e924ea720e4e1f82d56753db2154bfb86067472c5830732159c3a4c4fbc75d7
 
 build:
   number: 0
@@ -27,7 +27,7 @@ test:
 
 about:
   home: http://github.com/davisp/ghp-import
-  license: Tumbolia Public License
+  license: Tumbolia Public
   license_file: LICENSE
   summary: 'Copy your docs directly to the gh-pages branch.'
 
