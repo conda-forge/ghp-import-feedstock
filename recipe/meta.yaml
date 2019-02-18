@@ -1,27 +1,27 @@
+{% set name = "ghp-import" %}
 {% set version = "0.5.5" %}
 
 package:
-  name: ghp-import
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: ghp-import-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/g/ghp-import/ghp-import-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 3e924ea720e4e1f82d56753db2154bfb86067472c5830732159c3a4c4fbc75d7
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 2
+  entry_points:
+    - ghp-import = ghp_import:main
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
     - pip
     - python
-    - setuptools
   run:
     - python
-    - setuptools
 
 test:
   commands:
