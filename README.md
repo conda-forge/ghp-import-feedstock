@@ -3,7 +3,7 @@ About ghp-import
 
 Home: http://github.com/davisp/ghp-import
 
-Package license: Tumbolia Public
+Package license: LicenseRef-Tumbolia-Public
 
 Feedstock license: BSD-3-Clause
 
