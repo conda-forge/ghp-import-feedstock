@@ -1,5 +1,5 @@
 {% set name = "ghp-import" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 65e4d854dd0980096fd950a323d699daad4ff8007b8daa7e7ca60d57dfa00e1b
+  sha256: 61aad8dae5988d548b24cfa31180c49fc704418523c3e7fffd39d368bd82d406
 
 build:
   number: 0
