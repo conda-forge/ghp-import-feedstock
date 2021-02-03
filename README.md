@@ -5,11 +5,9 @@ Home: http://github.com/davisp/ghp-import
 
 Package license: LicenseRef-Tumbolia-Public
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ghp-import-feedstock/blob/master/LICENSE.txt)
 
 Summary: Copy your docs directly to the gh-pages branch.
-
-
 
 Current build status
 ====================
