@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
+    - python >=3.6
     - pip
-    - python
   run:
-    - python
+    - python >=3.6
     - python-dateutil >=2.8.1
 
 test:
