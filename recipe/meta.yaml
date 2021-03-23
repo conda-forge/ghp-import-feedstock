@@ -29,7 +29,6 @@ test:
     - ghp_import
   commands:
     - pip check
-    - ghp-import --help
   requires:
     - pip
 
