@@ -10,7 +10,7 @@ source:
   sha256: 9c535c4c61193c2df8871222567d7fd7e5014d835f97dc7b7439069e2413d343
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - ghp-import = ghp_import:main
@@ -20,6 +20,7 @@ requirements:
   host:
     - python >=3.6
     - pip
+    - setuptools
   run:
     - python >=3.6
     - python-dateutil >=2.8.1
@@ -34,7 +35,7 @@ test:
 
 about:
   home: http://github.com/davisp/ghp-import
-  license: LicenseRef-Tumbolia-Public
+  license: Apache-2.0
   license_file: LICENSE
   summary: Copy your docs directly to the gh-pages branch.
 
