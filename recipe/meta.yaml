@@ -14,7 +14,7 @@ build:
   noarch: python
   entry_points:
     - ghp-import = ghp_import:main
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
